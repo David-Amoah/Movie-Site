@@ -1,0 +1,129 @@
+.content-wrapper .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 25px;
+    padding: 1rem;
+}
+
+.content-wrapper img {
+    width: 300px;
+}
+
+.content-wrapper .container .title h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.content-wrapper .container .info {
+    margin: 20px 0px;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+}
+
+.content-wrapper .container .info span {
+    padding: .5rem;
+    text-transform: uppercase;
+    color: white;
+    background: #000;
+    border: 1px solid black;
+    margin: 10px 15px 10px 0px;
+}
+
+.content-wrapper .container .info .md {
+    border-radius: 5px;
+    background-color: orange
+}
+
+.content-wrapper .container .details .content {
+    font-size: 20px;
+}
+
+.content-wrapper .container .details {
+    line-height: 1.4;
+    width: 550px;
+}
+
+.content-wrapper .container .details .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.content-wrapper .container .details button {
+    padding: .6rem;
+    width: 250px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: orange;
+    font-size: 1.4rem;
+    transition: all 300ms ease-in-out;
+    font-weight: 900;
+}
+
+.content-wrapper .container .details button:hover {
+    color: orange;
+    background-color: rgb(206, 197, 197);
+}
+
+
+/* media queries */
+
+@media(max-width:960px) {
+    .container .poster img {
+        width: 200px;
+    }
+    #top-header nav {
+        display: none;
+    }
+    #top-header i {
+        display: block;
+        color: black;
+        color: green;
+        font-size: 40px;
+    }
+}
+
+@media(max-width:850px) {
+    .content-wrapper .details .title h1 {
+        font-size: 1.2rem;
+    }
+    .content-wrapper .details .info {
+        font-size: .8rem;
+    }
+    .content-wrapper .details .content p {
+        font-size: 1rem;
+    }
+    .content-wrapper .container .details button {
+        padding: .5rem;
+        font-size: 1rem;
+        width: 160px;
+    }
+    .content-wrapper .container .details {
+        width: 400px;
+    }
+}
+
+@media(max-width:700px) {
+    .content-wrapper .container {
+        display: block;
+    }
+}
+
+@media(max-width:706px) {
+    #newsletter .sign-up-form input {
+        margin: 10px 10px;
+    }
+}
+
+@media(max-width:450px) {
+    .content-wrapper .container .details {
+        width: 250px;
+    }
+}
+
+
+/* end media queries */

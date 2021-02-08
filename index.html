@@ -9,15 +9,20 @@
     <!-- Normalize -->
     <link rel="stylesheet" href="css/Normalize.css">
 
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/96ccaaca81.js" crossorigin="anonymous"></script>
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700;900&display=swap" rel="stylesheet">
 
-    <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/96ccaaca81.js" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="img/Holidate.jpg">
 
 
 
@@ -27,14 +32,21 @@
 <body>
 
     <!-- top header -->
-    <header id="top-header" class="clearfix">
+    <header id="top-header">
 
-        <div class="wrapper">
+        <!-- container -->
+        <div class="container">
 
-            <h1 class="logo">Movies<span>&amp</span>Stuff</h1>
-            <a href="#" class="menu"><i class="fas fa-bars"></i></a>
+            <!-- logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Movies<span>&amp</span>Stuff</h1>
+                </a>
+            </div>
+            <!-- end logo -->
 
-            <nav id="main-nav">
+            <!-- nav -->
+            <nav>
 
                 <a href="#">Top Movies</a>
                 <a href="#">TV Shows</a>
@@ -43,8 +55,17 @@
                 <a href="login.html">Login</a>
 
             </nav>
+            <!-- end nav -->
+
+            <!-- menu bar -->
+            <div class="menu">
+                <a href="#" class="menu"><i class="fas fa-bars"></i></a>
+            </div>
+            <!-- end menu bar -->
 
         </div>
+        <!-- end container-->
+
     </header>
     <!-- end top Header -->
 
@@ -53,21 +74,32 @@
 
 
     <!-- Banner -->
-    <section id="banner" class="clearfix">
+    <section id="banner">
 
+        <!-- banner content-wrapper -->
         <div id="banner-content-wrapper">
 
+            <!-- poster -->
             <div id="poster">
 
-                <img src="img/jumg.jpg" alt="Jumanji Movie Poster" class="featured-image" width="243px" height="360px">
-                <i class="fas fa-play"></i>
+                <img src="img/jumg.jpg" alt="Jumanji Movie Poster">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
 
             </div>
+            <!-- end poster -->
 
+            <!-- content -->
             <div id="content">
 
-                <h2 class="title">Jumanji</h2>
+                <!-- title -->
+                <div class="title">
+                    <h2>Jumanji</h2>
+                </div>
+                <!-- end title -->
 
+                <!-- ratings -->
                 <div class="ratings">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -75,15 +107,27 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star inactive"></i>
                 </div>
+                <!-- end ratings -->
 
-                <p class="description">Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game. In a brand-new Jumanji adventure, four high-school kids discover an old video-game console and are drawn into
-                    the game's jungle setting, literally becoming the adult avatars they chose.</p>
+                <!-- description -->
+                <div class="description">
+                    <p class="description">Four teenagers are sucked into a magical video game. In a brand-new Jumanji adventure, four high-school kids discover an old video-game console and are drawn into the game's jungle setting, literally becoming the adult avatars they
+                        chose.
+                    </p>
+                </div>
+                <!-- end description -->
 
-                <p class="info"> PG-13 <span>|</span> 1h 59min<span>|</span>Action, Adventure, Comedy<span>|</span> 20 December 2017 (USA).</p>
+                <!-- info -->
+                <div class="info">
+                    <p class="info"> PG-13 <span>|</span> 1h 59min<span>|</span>Action, Adventure, Comedy<span>|</span> 20 December 2017 (USA).</p>
+                </div>
+                <!-- end info -->
 
             </div>
+            <!-- end content -->
 
         </div>
+        <!-- end banner content-wrapper -->
 
     </section>
     <!-- End Banner -->
@@ -94,231 +138,231 @@
 
 
     <!-- top-movies -->
-    <section id="top-movies" class="clearfix">
+    <section id="top-movies">
 
-        <div class="wrapper">
+        <!-- container -->
+        <div class="container">
 
-            <header>
+            <!-- subject -->
+            <div class="subject">
 
-                <h2>Popular Movies</h2>
-                <p class="view-more">View All Movies</p>
-
-            </header>
-
-
-            <div class="row">
-
-                <div class="post">
-
-                    <img src="img/Holidate.jpg" alt="Holidate" width="135px" height="192.6px">
-                    <h3 class="title">Holidate</h3>
-                    <p class="post-info">PG-16 <span>|</span> 2h 30min
-
+                <div class="top">
+                    <h2>top movies</h2>
                 </div>
 
-                <div class="post">
-
-                    <img src="img/Missing in Action.jpg" alt="Missing In Action" width="135px" height="192.6px" class="">
-                    <h3 class="title">Missing In Action</h3>
-                    <p class="post-info">PG-18 <span>|</span> 1h 30min
-
+                <div class="more">
+                    <h4>view-more</h4>
                 </div>
-
-                <div class="post">
-
-                    <img src="img/Jungle Book.jpg" alt="Jungle Book" width="135px" height="192.6px">
-                    <h3 class="title">Jungle Book</h3>
-                    <p class="post-info">PG-13 <span>|</span> 130min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Shaft.jpg" alt="Shaft" width="135px" height="192.6px">
-                    <h3 class="title">Shaft</h3>
-                    <p class="post-info">PG-16 <span>|</span> 2h 45min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Tiger King.jpg" alt="Tiger King" width="135px" height="192.6px">
-                    <h3 class="title">Tiger King</h3>
-                    <p class="post-info"> R <span>|</span> 1h 45min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/The Knight Before Christmas.jpg" alt="The Knight Before Christmas" width="135px" height="192.6px">
-                    <h3 class="title">The Knight Before Christmas</h3>
-                    <p class="post-info">PG-16 <span>|</span> 2h 30min
-
-                </div>
-
             </div>
+            <!-- end subject -->
+
+            <!-- listings -->
+            <div class="listings">
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>shaft</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>black water abyss</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>the lovebirds</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>knight christmas</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>love thing</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>ella and bingo</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+            </div>
+            <!-- end listings -->
+
+        </div>
+        <!--end container -->
 
     </section>
     <!-- end top-movies -->
 
-
-
-
-
-
+    <hr>
 
     <!-- tv-shows -->
-    <section id="tv-shows" class="clearfix">
+    <section id="tv-shows">
+        <!-- container -->
+        <div class="container">
 
-        <div class="wrapper">
+            <!-- subject -->
+            <div class="subject">
 
-            <header>
-
-                <h2>Popular TV Shows</h2>
-                <p class="view-more">View All TV Shows</p>
-
-            </header>
-
-            <div class="row">
-
-                <div class="post">
-
-                    <img src="img/Last Holiday.jpg" alt="Last HOliday" width="135px" height="192.6px">
-                    <h3 class="title">Last Holiday</h3>
-                    <p class="post-info">PG
-
+                <div class="top">
+                    <h2>tv-shows</h2>
                 </div>
 
-                <div class="post">
-
-                    <img src="img/Love Birds.jpg" alt="Love Birds" width="135px" height="192.6px">
-                    <h3 class="title">Love Birds</h3>
-                    <p class="post-info">PG-18 <span>|</span> 1h 30min
-
+                <div class="more">
+                    <h4>view-more</h4>
                 </div>
-
-                <div class="post">
-
-                    <img src="img/Love Thing.jpg" alt="Love Thing" width="135px" height="192.6px">
-                    <h3 class="title">Love Don't Cost A thing</h3>
-                    <p class="post-info">PG-13 <span>|</span> 130min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Ella Bella Bingo.jpg" alt="Ella Bella Bingo" width="135px" height="192.6px">
-                    <h3 class="title">Ella Bella Bingo</h3>
-                    <p class="post-info">PG-16 <span>|</span> 2h 45min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Dexter.jpg" alt="Dexter" width="135px" height="192.6px">
-                    <h3 class="title">Dexter</h3>
-                    <p class="post-info"> R <span>|</span> 1h 45min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Black Water Abyss.jpg" alt="Black Water Abyss" width="135px" height="192.6px">
-                    <h3 class="title">Black Water Abyss</h3>
-                    <p class="post-info">PG-16 <span>|</span> 2h 30min
-
-                </div>
-
             </div>
+            <!-- end subject -->
 
+            <!-- listings -->
+            <div class="listings">
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>Holidate</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>missing in action</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>last holiday</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>tiger king</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>dexter</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>spongebob</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+            </div>
+            <!-- end listings -->
+
+        </div>
+        <!--end container -->
 
     </section>
     <!-- end tv-shows -->
 
-
-
-
-
-
+    <hr>
 
     <!-- kids -->
-    <section id="Kids" class="clearfix">
+    <section id="kids">
 
-        <div class="wrapper">
+        <!-- container -->
+        <div class="container">
 
-            <header>
+            <!-- subject -->
+            <div class="subject">
 
-                <h2>Animation</h2>
-                <p class="view-more">View All Animation</p>
-
-            </header>
-
-            <div class="row">
-
-                <div class="post">
-
-                    <img src="img/Astro Boy.jpg" alt="Astro Boy" width="135px" height="192.6px">
-                    <h3 class="title">Astro Boy</h3>
-                    <p class="post-info">Family<span>|</span> 2h 30min
-
+                <div class="top">
+                    <h2>kids</h2>
                 </div>
 
-                <div class="post">
-
-                    <img src="img/Sonic Movie.jpg" alt="Sonic Movie" width="135px" height="192.6px">
-                    <h3 class="title">Sonic Movie</h3>
-                    <p class="post-info">Family<span>|</span> 1h 30min
-
+                <div class="more">
+                    <h4>view-more</h4>
                 </div>
-
-                <div class="post">
-
-                    <img src="img/Toy Story 4.jpg" alt="Toy Story 4" width="135px" height="192.6px">
-                    <h3 class="title">Toy Story 4</h3>
-                    <p class="post-info">Family<span>|</span> 130min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Frozen II.jpg" alt="Frozen II" width="135px" height="192.6px">
-                    <h3 class="title">Frozen II</h3>
-                    <p class="post-info">Family<span>|</span> 2h 45min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/SpongeBob Movie.jpg" alt="SpongeBob" width="135px" height="192.6px">
-                    <h3 class="title">SpongeBob</h3>
-                    <p class="post-info">Family<span>|</span> 1h 45min
-
-                </div>
-
-                <div class="post">
-
-                    <img src="img/Blast Off To Mars.jpg" alt="Blast Off To Mars" width="135px" height="192.6px">
-                    <h3 class="title">Blast Off To Mars</h3>
-                    <p class="post-info">Family<span>|</span> 2h 30min
-
-                </div>
-
             </div>
+            <!-- end subject -->
 
+            <!-- listings -->
+            <div class="listings">
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>astro boy</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>frozen II</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>jugnle book </h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>toy story</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>sonic</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+                <a href="details.html">
+                    <div class="box"></div>
+                    <div class="word">
+                        <h3>tom & jerry</h3>
+                        <p>PG-13 | 1h 59min</p>
+                    </div>
+                </a>
+            </div>
+            <!-- end listings -->
+
+        </div>
+        <!--end container -->
     </section>
-    <!-- end kids  -->
+    <!-- end kids -->
 
-
-
-
-
-
+    <hr>
 
 
 
     <!-- newsletter -->
     <section id="newsletter">
 
+        <!-- newsletter -->
         <div class="newsletter-inner">
             <h2> Find all the best Movies, TV Shows &amp; Kids Shows on this site or get them right into your inbox each week</h2>
 
@@ -326,18 +370,15 @@
 
                 <input type="text" placeholder="First Name">
                 <input type="email" placeholder="Email Address">
-                <button class="button">Submit</button>
+                <button class="button">Subscribe</button>
 
             </div>
 
         </div>
+        <!-- newsletter-inner -->
 
     </section>
     <!-- end newsletter -->
-
-
-
-
 
 
     <!-- main-footer -->
@@ -350,6 +391,8 @@
 
             <a href="#">Terms of Service</a>
             <a href="#">Privacy Policy</a>
+            <p>BY: DAVID OSEI AMOAH</p>
+        </div>
 
     </footer>
     <!-- end main-footer -->
