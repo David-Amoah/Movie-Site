@@ -1,362 +1,352 @@
 .subject {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 1rem;
-    text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  text-transform: capitalize;
 }
 
 .subject .top {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 hr {
-    margin: 60px 0px;
+  margin: 60px 0px;
 }
-
 
 /* banner */
 
 #banner-content-wrapper {
-    width: 100%;
-    height: 80vh;
-    background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    padding: 2.5rem;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 2.5rem;
+  position: relative;
+}
+#poster {
+  margin-left: 30px;
+  position: relative;
 }
 
 #poster img {
-    width: 300px;
-    height: 450px;
-    border-radius: 10px;
-}
-
-#poster {
-    margin-left: 30px;
-    position: relative;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
 }
 
 #content {
-    margin: 0 auto;
-    width: 600px;
+  margin: 0 auto;
+  width: 600px;
 }
 
 #poster .play {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: translate(100%, 150%);
-    color: white;
-    text-align: center;
-    font-size: 100px;
-    width: 100px;
-    height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translate(100%, 150%);
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 #poster .play i {
-    opacity: 0.6;
-    cursor: pointer;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 #content .title {
-    font-size: 2rem;
-    display: inline-block;
-    margin: 50px 50px 50px 0px;
-    color: white;
+  font-size: 2rem;
+  display: inline-block;
+  margin: 50px 50px 50px 0px;
+  color: white;
 }
 
 #content .ratings {
-    display: inline;
+  display: inline;
 }
 
 #content .ratings i {
-    margin-right: .8rem;
-    color: #73e298;
-    font-size: 1.4rem;
+  margin-right: 0.8rem;
+  color: #73e298;
+  font-size: 1.4rem;
 }
 
 #content .ratings .inactive {
-    color: #252529;
+  color: #252529;
 }
 
 #content .description {
-    font-size: 1.4rem;
-    line-height: 1.4;
+  font-size: 1.4rem;
+  line-height: 1.4;
 }
 
 #content .info {
-    color: white;
-    margin-top: 20px;
-    font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
-
 /* end banner */
-
 
 /* top movies */
 
 #top-movies {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #top-movies .listings a:nth-child(1) .box {
-    background-image: url(../img/Shaft.jpg);
+  background-image: url(../img/Shaft.jpg);
 }
 
 #top-movies .listings a:nth-child(2) .box {
-    background-image: url(../img/Black\ Water\ Abyss.jpg);
+  background-image: url(../img/Black\ Water\ Abyss.jpg);
 }
 
 #top-movies .listings a:nth-child(3) .box {
-    background-image: url(../img/Love\ Birds.jpg);
+  background-image: url(../img/Love\ Birds.jpg);
 }
 
 #top-movies .listings a:nth-child(4) .box {
-    background-image: url(../img/The\ Knight\ Before\ Christmas.jpg);
+  background-image: url(../img/The\ Knight\ Before\ Christmas.jpg);
 }
 
 #top-movies .listings a:nth-child(5) .box {
-    background-image: url(../img/Love\ Thing.jpg);
+  background-image: url(../img/Love\ Thing.jpg);
 }
 
 #top-movies .listings a:nth-child(6) .box {
-    background-image: url(../img/Ella\ Bella\ Bingo.jpg);
+  background-image: url(../img/Ella\ Bella\ Bingo.jpg);
 }
 
 .listings {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
 }
 
 .listings a {
-    width: 150px;
+  width: 150px;
 }
 
 .listings .word {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .listings .word h3 {
-    text-transform: capitalize;
-    color: #252529;
+  text-transform: capitalize;
+  color: #252529;
 }
 
 .container a .box {
-    width: 150px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
 }
 
-
 /* end top movies */
-
 
 /* tv-shows */
 
 #tv-shows .listings a:nth-child(1) .box {
-    background-image: url(../img/Holidate.jpg);
+  background-image: url(../img/Holidate.jpg);
 }
 
 #tv-shows .listings a:nth-child(2) .box {
-    background-image: url(../img/Missing\ in\ Action.jpg);
+  background-image: url(../img/Missing\ in\ Action.jpg);
 }
 
 #tv-shows .listings a:nth-child(3) .box {
-    background-image: url(../img/Last\ Holiday.jpg);
+  background-image: url(../img/Last\ Holiday.jpg);
 }
 
 #tv-shows .listings a:nth-child(4) .box {
-    background-image: url(../img/Tiger\ King.jpg);
+  background-image: url(../img/Tiger\ King.jpg);
 }
 
 #tv-shows .listings a:nth-child(5) .box {
-    background-image: url(../img/Dexter.jpg);
+  background-image: url(../img/Dexter.jpg);
 }
 
 #tv-shows .listings a:nth-child(6) .box {
-    background-image: url(../img/SpongeBob\ Movie.jpg);
+  background-image: url(../img/SpongeBob\ Movie.jpg);
 }
 
-
 /* end tv-shows */
-
 
 /* kids */
 
 #kids .listings a:nth-child(1) .box {
-    background-image: url(../img/Astro\ Boy.jpg);
+  background-image: url(../img/Astro\ Boy.jpg);
 }
 
 #kids .listings a:nth-child(2) .box {
-    background-image: url(../img/Frozen\ II.jpg);
+  background-image: url(../img/Frozen\ II.jpg);
 }
 
 #kids .listings a:nth-child(3) .box {
-    background-image: url(../img/Jungle\ Book.jpg);
+  background-image: url(../img/Jungle\ Book.jpg);
 }
 
 #kids .listings a:nth-child(4) .box {
-    background-image: url(../img/Toy\ Story\ 4.jpg);
+  background-image: url(../img/Toy\ Story\ 4.jpg);
 }
 
 #kids .listings a:nth-child(5) .box {
-    background-image: url(../img/Sonic\ Movie.jpg);
+  background-image: url(../img/Sonic\ Movie.jpg);
 }
 
 #kids .listings a:nth-child(6) .box {
-    background-image: url(../img/Blast\ Off\ To\ Mars.jpg);
+  background-image: url(../img/Blast\ Off\ To\ Mars.jpg);
 }
-
 
 /* end kids */
 
-
 /* media queries */
 
-@media(max-width:1020px) {
-    .listings {
-        grid-template-columns: repeat(5, 1fr);
-    }
-    .listings a:last-child {
-        display: none;
-    }
-    #poster img {
-        width: 250px;
-        height: 350px;
-    }
-    #poster .play {
-        transform: translate(70%, 120%);
-        font-size: 80px;
-    }
-    #banner-content-wrapper {
-        padding: 2rem;
-        height: 65vh;
-    }
-    #content .description {
-        font-size: 1.2rem;
-        line-height: 1.4;
-    }
-    #content .title {
-        font-size: 1.8rem;
-        display: inline-block;
-        margin: 30px 20px 20px 0px;
-        color: white;
-    }
-    #content {
-        margin-left: 30px;
-    }
-    #top-header nav {
-        display: none;
-    }
-    #top-header .container .menu {
-        display: block;
-        color: black;
-        font-size: 30px;
-    }
+@media (max-width: 1020px) {
+  .listings {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .listings a:last-child {
+    display: none;
+  }
+  #poster img {
+    width: 250px;
+    height: 350px;
+  }
+  #poster .play {
+    transform: translate(70%, 120%);
+    font-size: 80px;
+  }
+  #banner-content-wrapper {
+    padding: 2rem;
+    height: 65vh;
+  }
+  #content .description {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  #content .title {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin: 30px 20px 20px 0px;
+    color: white;
+  }
+  #content {
+    margin-left: 30px;
+  }
+  #top-header nav {
+    display: none;
+  }
+  #top-header .container .menu {
+    display: block;
+    color: black;
+    font-size: 30px;
+  }
 }
 
-@media(max-width:850px) {
-    .listings {
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .listings a:nth-child(5) {
-        display: none;
-    }
+@media (max-width: 850px) {
+  .listings {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .listings a:nth-child(5) {
+    display: none;
+  }
 }
 
-@media(max-width:780px) {
-    #content .description {
-        font-size: 1rem;
-    }
-    #content .title {
-        font-size: 1.4rem;
-    }
-    #content .ratings i {
-        font-size: 1rem;
-        margin-right: 5px;
-    }
-    #content .info {
-        font-size: .7rem;
-    }
+@media (max-width: 780px) {
+  #content .description {
+    font-size: 1rem;
+  }
+  #content .title {
+    font-size: 1.4rem;
+  }
+  #content .ratings i {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  #content .info {
+    font-size: 0.7rem;
+  }
 }
 
-@media(max-width:680px) {
-    .listings {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .listings a:nth-child(5) {
-        display: block;
-    }
-    .listings a:last-child {
-        display: block;
-    }
-    #poster img {
-        width: 200px;
-        height: 300px;
-    }
-    #poster .play {
-        transform: translate(50%, 100%);
-        font-size: 70px;
-    }
-    #banner-content-wrapper {
-        align-items: center;
-    }
+@media (max-width: 680px) {
+  .listings {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .listings a:nth-child(5) {
+    display: block;
+  }
+  .listings a:last-child {
+    display: block;
+  }
+  #poster img {
+    width: 200px;
+    height: 300px;
+  }
+  #poster .play {
+    transform: translate(50%, 100%);
+    font-size: 70px;
+  }
+  #banner-content-wrapper {
+    align-items: center;
+  }
 }
 
-@media(max-width:650px) {
-    #banner img {
-        width: 180px;
-        height: 230px;
-    }
-    #poster .play {
-        transform: translate(40%, 80%);
-        font-size: 50px;
-    }
-    #banner-content-wrapper {
-        align-items: center;
-    }
-    #content {
-        line-height: 1;
-        transform: translate(0px, -20px);
-    }
-    #content .info {
-        margin-top: 10px;
-    }
+@media (max-width: 650px) {
+  #banner img {
+    width: 180px;
+    height: 230px;
+  }
+  #poster .play {
+    transform: translate(40%, 80%);
+    font-size: 50px;
+  }
+  #banner-content-wrapper {
+    align-items: center;
+  }
+  #content {
+    line-height: 1;
+    transform: translate(0px, -20px);
+  }
+  #content .info {
+    margin-top: 10px;
+  }
 }
 
-@media(max-width:600px) {
-    #banner-content-wrapper {
-        display: block;
-        height: 80vh;
-    }
-    #content {
-        width: 300px;
-    }
+@media (max-width: 600px) {
+  #banner-content-wrapper {
+    display: block;
+    height: 80vh;
+  }
+  #content {
+    width: 300px;
+  }
 }
 
-@media(max-width:520px) {
-    .listings {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    #newsletter .sign-up-form input {
-        margin: 10px 10px;
-    }
+@media (max-width: 520px) {
+  .listings {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #newsletter .sign-up-form input {
+    margin: 10px 10px;
+  }
 }
 
-@media(max-width:360px) {
-    #banner-content-wrapper {
-        padding: 10px 10px;
-        height: 80vh;
-    }
+@media (max-width: 360px) {
+  #banner-content-wrapper {
+    padding: 10px 10px;
+    height: 80vh;
+  }
 }
-
 
 /* end media queries */
